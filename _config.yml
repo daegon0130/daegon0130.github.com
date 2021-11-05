@@ -191,7 +191,7 @@ gitment:
   repo: daegon0130.github.com
   client_id: 35a626a9b69e1b51bd03
   client_secret: 6566791ea5db3e23025fc5c34b8800b9c0d68357
-#   redirect_uri: "Your redirect url"   # If you use a custom domain name
+  redirect_uri: "https://daegon0130.github.io" # If you use a custom domain name
 
 # Build settings
 # highlighter: none

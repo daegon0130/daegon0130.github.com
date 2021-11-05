@@ -1,21 +1,21 @@
   <div id="gitment_thread"></div>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.css"/>
-  
+  <!--
   <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.js"></script>
   <script>
     var gitment = new Gitment({
       id: '{{ page.id }}',
-      owner: 'daegon0130',
-      repo: 'daegon0130.github.com',
+      owner: '{{ site.gitment.username }}',
+      repo: '{{ site.gitment.repo }}',
       oauth: {
-        client_id: '35a626a9b69e1b51bd03',
-        client_secret: '20c05365bbb488a4ad95e5842786323ce0f9c2a2',
+        client_id: '{{ site.gitment.client_id }}',
+        client_secret: '{{ site.gitment.client_secret }}',
       },
     });
     gitment.render('gitment_thread')
   </script>
+-->
 
-<!--
 <script src="https://cdn.jsdelivr.net/npm/bluebird@3.5.1/js/browser/bluebird.core.min.js"></script>
 <section class="comments" id="comments">
   <div id="gitment_thread"></div>
@@ -37,4 +37,3 @@
     gitment.render('gitment_thread');
   </script>
 </section>
--->
