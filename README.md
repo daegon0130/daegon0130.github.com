@@ -1,3 +1,3 @@
 # daegon0130.github.com
 
-블로그
+블로그..
