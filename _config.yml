@@ -189,7 +189,7 @@ defaults:
 gitment:
   username: "daegon0130"
   repo: "daegon0130.github.com"
-  client_id: "35a626a9b69e1b51bd03 "
+  client_id: "35a626a9b69e1b51bd03"
   client_secret: "20c05365bbb488a4ad95e5842786323ce0f9c2a2"
 #   redirect_uri: "Your redirect url"   # If you use a custom domain name
 
