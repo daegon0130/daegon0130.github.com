@@ -39,7 +39,7 @@
               <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | upcase | escape }}</a>
               {%- endif -%}
             {%- endfor -%}
-
+            <!-- **google translate로 언어 바꾸는 기능
             {%- assign name = 'translate_langs' -%}
             {%- include functions.html func='get_value' -%}
             {%- assign translate_langs = return -%}
@@ -50,6 +50,7 @@
               <span class="page-link">
                   {%- include extensions/google-translate.html -%}
               </span>
+            -->
             {%- endif -%}
           </div>
         </nav>
